@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenMP Basics", "OpenMP Basics\OpenMP Basics.vcxproj", "{DDFAA449-91A8-4052-8B2D-AB268501E06C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise2", "Exercise2\Exercise2.vcxproj", "{27E32795-5824-4098-837E-6BAC49A6EF57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise4", "Exercise4\Exercise4.vcxproj", "{61279FB2-2A6C-4C62-AF27-0981672AEFFB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise5", "Exercise5\Exercise5.vcxproj", "{A0DC1E36-608F-4C08-AA83-839AB2348DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDFAA449-91A8-4052-8B2D-AB268501E06C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DDFAA449-91A8-4052-8B2D-AB268501E06C}.Debug|Win32.Build.0 = Debug|Win32
+		{DDFAA449-91A8-4052-8B2D-AB268501E06C}.Release|Win32.ActiveCfg = Release|Win32
+		{DDFAA449-91A8-4052-8B2D-AB268501E06C}.Release|Win32.Build.0 = Release|Win32
+		{27E32795-5824-4098-837E-6BAC49A6EF57}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27E32795-5824-4098-837E-6BAC49A6EF57}.Debug|Win32.Build.0 = Debug|Win32
+		{27E32795-5824-4098-837E-6BAC49A6EF57}.Release|Win32.ActiveCfg = Release|Win32
+		{27E32795-5824-4098-837E-6BAC49A6EF57}.Release|Win32.Build.0 = Release|Win32
+		{61279FB2-2A6C-4C62-AF27-0981672AEFFB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61279FB2-2A6C-4C62-AF27-0981672AEFFB}.Debug|Win32.Build.0 = Debug|Win32
+		{61279FB2-2A6C-4C62-AF27-0981672AEFFB}.Release|Win32.ActiveCfg = Release|Win32
+		{61279FB2-2A6C-4C62-AF27-0981672AEFFB}.Release|Win32.Build.0 = Release|Win32
+		{A0DC1E36-608F-4C08-AA83-839AB2348DCB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0DC1E36-608F-4C08-AA83-839AB2348DCB}.Debug|Win32.Build.0 = Debug|Win32
+		{A0DC1E36-608F-4C08-AA83-839AB2348DCB}.Release|Win32.ActiveCfg = Release|Win32
+		{A0DC1E36-608F-4C08-AA83-839AB2348DCB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
