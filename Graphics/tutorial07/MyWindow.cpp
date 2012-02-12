@@ -58,7 +58,7 @@ void MyWindow::OnCreate() {
 	_material3.create(Color::black(), Color::black(), Color::yellow());
 
 	// setup some lights (ambient is turned off on all lights)
-	_light1.create(0, Color::black(), Color(0.5f,0.5f,0.5f,1.0f)); 
+	_light1.create(0, Color::black(), Color(1.0f,0.5f,0.5f,1.0f)); 
 	_light2.create(1, Color::black(), Color(0.5f,0.5f,0.5f,1.0f)); 
 	_light3.create(2, Color::black(), Color(0.5f,0.5f,0.0f,1.0f));
 
@@ -66,8 +66,8 @@ void MyWindow::OnCreate() {
 	glLightModelfv(GL_LIGHT_MODEL_AMBIENT, Color::black().rgba());
 
 	// Turn on the lights
-	_light1.apply();
-	_light2.apply();
+	/*_light1.apply();*/
+	/*_light2.apply();*/
 	_light3.apply();
 
 	// setup the two spheres
@@ -174,7 +174,7 @@ void MyWindow::OnDisplay() {
 			_light3.setPosition(Vector4f(0.0,2.0,-3.0,1.0));
 			glTranslatef(0.0,2.0,-3.0);
 			_material3.apply();
-			_sphere1.draw();
+			/*_sphere1.draw();*/
 		glPopMatrix();
 
 		glPushMatrix();

@@ -513,22 +513,22 @@ public:
 
 		glGetFloatv(GL_MODELVIEW_MATRIX , matrix);
 
-		matrix[0] = matrix[10] = 1.0f;
+		matrix[0] = matrix[10] = matrix[15] = 1.0f;
 		matrix[1] = matrix[2] = matrix[8] = matrix[9] = 0.0f;
 
 		glLoadMatrixf(matrix);
 		glDisable(GL_CULL_FACE);
 		glBegin(GL_TRIANGLES);
-			glNormal3f(0.0f,0.0f,1.0f);
-			glVertex3f(-1.0f,1.0f,0.0f);
-			glVertex3f(1.0f,1.0f,0.0f);
-			glVertex3f(0.0f,2.0f,0.0f);
-			glVertex3f(-0.25f,0.0f,0.0f);
-			glVertex3f(0.25f,0.0f,0.0f);
-			glVertex3f(-0.25f,1.0f,0.0f);
-			glVertex3f(0.25f,0.0f,0.0f);
-			glVertex3f(0.25f,1.0f,0.0f);
-			glVertex3f(-0.25f,1.0f,0.0f);
+		glNormal3f(0.0f,0.0f,1.0f);
+		glVertex3f(-1.0f,1.0f,0.0f);
+		glVertex3f(1.0f,1.0f,0.0f);
+		glVertex3f(0.0f,2.0f,0.0f);
+// 		glVertex3f(-0.25f,0.0f,0.0f);
+// 		glVertex3f(0.25f,0.0f,0.0f);
+// 		glVertex3f(-0.25f,1.0f,0.0f);
+// 		glVertex3f(0.25f,0.0f,0.0f);
+// 		glVertex3f(0.25f,1.0f,0.0f);
+// 		glVertex3f(-0.25f,1.0f,0.0f);
 		glEnd();
 		glEnable(GL_CULL_FACE);
 		glPopMatrix();

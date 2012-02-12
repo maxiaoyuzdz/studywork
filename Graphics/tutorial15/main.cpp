@@ -341,7 +341,7 @@ public:
 		glEnable(GL_TEXTURE_2D);
 		
 		//texture1 operation rotate and translate
-        glMatrixMode(GL_TEXTURE);
+		glMatrixMode(GL_TEXTURE);
         glLoadIdentity();
         glTranslatef(0.5f, 0.5f, 0.0f);
         glRotatef(_angle, 0.0f, 0.0f, 1.0f);
